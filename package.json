@@ -1,9 +1,9 @@
 {
   "name": "wabisabi.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web framework for node.js. Simple and Economy.",
   "keywords": ["web", "framework"],
-  "repository": "git://github.com/stanislavfeldman/mootools.js.git",
+  "repository": "git://github.com/stanislavfeldman/kiss.js.git",
   "author": "Stanislav Feldman",
   "editor": "Jun Kawasaki",
   "dependencies": {
