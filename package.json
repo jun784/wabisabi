@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "description": "Web framework for node.js. Simple and Economy.",
   "keywords": ["web", "framework"],
-  "repository": "git://github.com/stanislavfeldman/kiss.js.git",
+  "repository": "git://github.com/jun784/wabisabi.git",
   "author": "Stanislav Feldman",
   "editor": "Jun Kawasaki",
   "dependencies": {
-    "mootools.js": "lastest",
+    "kiss.js": "lastest",
     "node-t": "lastest"
   },
   "main": "index",

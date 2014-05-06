@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/junkawasaki/.nvm/v0.10.22/bin/node',
+1 verbose cli   '/Users/junkawasaki/.nvm/v0.10.22/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/junkawasaki/Dev/wabisabi', [ 'kiss.js', 'node-t' ] ]
+6 info preinstall wabisabi.js@0.1.1
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'kiss.js@lastest', null ]
+9 verbose cache add name=undefined spec="kiss.js@lastest" args=["kiss.js@lastest",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'kiss.js@lastest',
+10 verbose parsed url   path: 'kiss.js@lastest',
+10 verbose parsed url   href: 'kiss.js@lastest' }
+11 verbose cache add name="kiss.js" spec="lastest" args=["kiss.js","lastest"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'lastest',
+12 verbose parsed url   path: 'lastest',
+12 verbose parsed url   href: 'lastest' }
+13 verbose addNamed [ 'kiss.js', 'lastest' ]
+14 verbose addNamed [ null, null ]
+15 verbose cache add [ 'node-t@lastest', null ]
+16 verbose cache add name=undefined spec="node-t@lastest" args=["node-t@lastest",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'node-t@lastest',
+17 verbose parsed url   path: 'node-t@lastest',
+17 verbose parsed url   href: 'node-t@lastest' }
+18 verbose cache add name="node-t" spec="lastest" args=["node-t","lastest"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'lastest',
+19 verbose parsed url   path: 'lastest',
+19 verbose parsed url   href: 'lastest' }
+20 verbose addNamed [ 'node-t', 'lastest' ]
+21 verbose addNamed [ null, null ]
+22 silly lockFile 7f52e0e3-kiss-js-lastest kiss.js@lastest
+23 verbose lock kiss.js@lastest /Users/junkawasaki/.npm/7f52e0e3-kiss-js-lastest.lock
+24 silly lockFile 40c7f855-node-t-lastest node-t@lastest
+25 verbose lock node-t@lastest /Users/junkawasaki/.npm/40c7f855-node-t-lastest.lock
+26 info addNameTag [ 'kiss.js', 'lastest' ]
+27 info addNameTag [ 'node-t', 'lastest' ]
+28 verbose url raw kiss.js
+29 verbose url resolving [ 'https://registry.npmjs.org/', './kiss.js' ]
+30 verbose url resolved https://registry.npmjs.org/kiss.js
+31 info trying registry request attempt 1 at 00:02:07
+32 verbose etag "BAAGDN8Y065JNT82XWRBHM070"
+33 http GET https://registry.npmjs.org/kiss.js
+34 verbose url raw node-t
+35 verbose url resolving [ 'https://registry.npmjs.org/', './node-t' ]
+36 verbose url resolved https://registry.npmjs.org/node-t
+37 info trying registry request attempt 1 at 00:02:07
+38 verbose etag "AV859KT4LFCV2L6JCIDXSGRUY"
+39 http GET https://registry.npmjs.org/node-t
+40 http 304 https://registry.npmjs.org/kiss.js
+41 silly registry.get cb [ 304,
+41 silly registry.get   { date: 'Tue, 06 May 2014 15:02:08 GMT',
+41 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+41 silly registry.get     etag: '"BAAGDN8Y065JNT82XWRBHM070"',
+41 silly registry.get     'content-length': '0',
+41 silly registry.get     'accept-ranges': 'bytes',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     'cache-control': 'max-age=1',
+41 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-ty68-TYO',
+41 silly registry.get     'x-cache': 'MISS, MISS',
+41 silly registry.get     'x-cache-hits': '0, 0',
+41 silly registry.get     'x-timer': 'S1399388528.410672426,VS0,VS86,VE186,VE275',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     connection: 'Keep-Alive' } ]
+42 verbose etag kiss.js from cache
+43 http 304 https://registry.npmjs.org/node-t
+44 silly registry.get cb [ 304,
+44 silly registry.get   { date: 'Tue, 06 May 2014 15:02:08 GMT',
+44 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+44 silly registry.get     etag: '"AV859KT4LFCV2L6JCIDXSGRUY"',
+44 silly registry.get     'content-length': '0',
+44 silly registry.get     'accept-ranges': 'bytes',
+44 silly registry.get     via: '1.1 varnish',
+44 silly registry.get     'cache-control': 'max-age=1',
+44 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-ty68-TYO',
+44 silly registry.get     'x-cache': 'MISS, MISS',
+44 silly registry.get     'x-cache-hits': '0, 0',
+44 silly registry.get     'x-timer': 'S1399388528.408698320,VS0,VS86,VE188,VE293',
+44 silly registry.get     'keep-alive': 'timeout=10, max=50',
+44 silly registry.get     connection: 'Keep-Alive' } ]
+45 verbose etag node-t from cache
+46 silly lockFile 40c7f855-node-t-lastest node-t@lastest
+47 silly lockFile 40c7f855-node-t-lastest node-t@lastest
+48 silly lockFile 7f52e0e3-kiss-js-lastest kiss.js@lastest
+49 silly lockFile 7f52e0e3-kiss-js-lastest kiss.js@lastest
+50 error notarget No compatible version found: node-t@'lastest'
+50 error notarget Valid install targets:
+50 error notarget ["0.1.0"]
+50 error notarget
+50 error notarget This is most likely not a problem with npm itself.
+50 error notarget In most cases you or one of your dependencies are requesting
+50 error notarget a package version that doesn't exist.
+51 error System Darwin 13.1.0
+52 error command "/Users/junkawasaki/.nvm/v0.10.22/bin/node" "/Users/junkawasaki/.nvm/v0.10.22/bin/npm" "install"
+53 error cwd /Users/junkawasaki/Dev/wabisabi
+54 error node -v v0.10.22
+55 error npm -v 1.3.14
+56 error code ETARGET
+57 verbose exit [ 1, true ]
